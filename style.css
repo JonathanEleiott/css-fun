@@ -1,0 +1,66 @@
+html {
+  font-family: "Apple Chancery", "cursive";
+  font-size: 20px;
+}
+
+body {
+  background-color: dodgerblue;
+}
+
+section {
+  background-color: aqua;
+}
+
+div {
+  background-color: forestgreen;
+}
+
+div {
+  background-color: rebeccapurple;
+  height: 50px;
+  width: 50px;
+  /* display: inline-block; */
+  margin: 10px;
+  margin-left: 20%;
+  border: 1rem solid cornsilk;
+  padding: 20px;
+}
+
+#circles {
+  background-color: fuchsia;
+}
+
+.circle {
+  border-radius: 150px;
+}
+
+.square {
+  background-color: burlywood;
+}
+
+.big {
+  height: 100px;
+  width: 100px;
+}
+
+.little {
+  height: 25px;
+  width: 25px
+}
+
+p:hover {
+  background-color: lime;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#other-squares > div {
+  background-color: chartreuse;
+}
+
+#squares p {
+  background-color: darkcyan;
+}
+
+p, div {
+  background-color: steelblue;
+}
